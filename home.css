@@ -65,10 +65,14 @@ body{
       background-color: #2f5c4c;
       color: #fff;
       border: none;
+
+  transform: scale(1.05);
     }
 
     .btn-outline-success:hover {
       background-color: #264a3e;
+      color:goldenrod;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);  
     }
 
 .btn-signin {
@@ -90,21 +94,7 @@ body{
 
 
 
-/* .btn {
 
-  background-color:#376c58;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius:5px;
-  transition:0.3s;
-}
-
-.btn:hover {
-background-color: #6bc097;
-color: #1b1c20;
-box-shadow: 1px 2px 3px #1b1c20;
-}*/
 
 .hero-banner {
       background-image: url('C:/Users/Admin/Downloads/new_banner.png');
@@ -133,7 +123,6 @@ box-shadow: 1px 2px 3px #1b1c20;
     }
 
 .hero-banner .btn:hover {
-
 
  background-color: #274e3b; /* a darker green or blue shade */
   transform: scale(1.05);
@@ -167,23 +156,97 @@ box-shadow: 1px 2px 3px #1b1c20;
     color: white;
  }    
  .con2{
-    /*background-color:#ecf8f8;*/
-    background-color: #e3dac9;
+  background-color: #f8f5f2;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  border-radius: 10px;
  }
- 
+ .section-title {
+  padding: 5px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2e4a3b;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 25px;
+}
+.divider {
+  border: none;
+  border-top: 2px solid #ddd;
+  margin: 10px auto;
+  width: 80%;
+
+}
+
+
+.tagline {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 30px 0 20px;
+  color: #2c2c2c;
+   /* color:goldenrod; */
+  font-family: 'Segoe UI', sans-serif;
+}
 
 
  .card{
      background-color: ivory;
-     box-shadow: 2px 3px 4px  black;
+     box-shadow: 2px 3px 3px  black;
      border: 1px solid black;
+     width: 300px; 
+    border-radius: 10%;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+
  }
 .card:not(:hover){
-    transform:scale(0.8);
+    /* box-shadow: 2px 2px 4px black; */
+  transform:scale(0.9);
+    transition: 4s ease;
 }
 .card:hover{
     box-shadow: 3px 3px  5px black;
+   
+    
 }
+.card-text {
+
+  line-height: 1.6;
+  font-size: 0.95rem;
+  /* padding: 10px; */
+}
+
+.card-tag {
+
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  display: inline-block;
+  margin-bottom: 8px;
+  background-color: #e7f0ea;
+color: #2e4a3b;
+font-weight: 500;
+border-radius: 10px;
+
+}
+.rating {
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+
+
 
 .featured{
     width: 600px;
