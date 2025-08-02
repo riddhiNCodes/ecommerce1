@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homepage</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" style="line-height: 1;
+  display: inline-block;vertical-align: middle;margin-left:8px;">
+        <img src="D:\Project\ecommerce\images\newlogo.png" height="90px" class="me-2" />
+        ThreadMuse
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynav">
+        <form class="d-flex ms-4 me-3 ">
+          <input class="form-control me-2" type="search" placeholder="Search" />
+          <button class="btn btn-outline-success">Search</button>
+        </form>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Shop Now</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Office wear</a></li>
+              <li><a class="dropdown-item" href="#">College wear</a></li>
+              <li><a class="dropdown-item" href="#">Casuals</a></li>
+              <li><a class="dropdown-item" href="#">Party Wear</a></li>
+              <li><a class="dropdown-item" href="#">Ethnic Wear</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+        </ul>
+ <div class="d-flex align-items-center ms-3 me-3">
+  <i class="fa-solid fa-cart-shopping p-2" style="color: white; font-size:18px;"></i>
+</div>
+
+<a href="login.html" class="btn-signin">
+  <i class="fas fa-user p-1"></i> SIGN IN
+</a>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="hero-banner d-flex align-items-center text-light ">
+ 
+  <div class="container text-center" style="margin-top: 100px;"> 
+    <h1 class="display-4 fw-bold">Welcome to ThreadMuse</h1>
+    <p class="lead">Where fashion becomes expressive, immersive, and irresistibly yours.</p>
+    <a href="#catalogue" class="btn  btn-lg mt-3">Explore Collection</a>
+  </div>
+</section>
+
+<div class="container-fluid">
+  <div class="container mt-2 mb-2">
+    <div class="row ">
+      <div class="col">
+      <div id="carouselExampleCaptions" class="carousel slide"data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  
+   <div class="carousel-inner">
+   <!--  <div class="carousel-item active" style="height:300px;">
+      <img src="C:\Users\Admin\Downloads\item1.jpg" class="img-fluid" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div> -->
+    <div class="carousel-item active" style="height: 350px; overflow: hidden;">
+  <img 
+    src="C:\Users\Admin\Downloads\item1.jpg" 
+    class="img-fluid w-100 h-100 object-fit-cover" 
+    alt="Modern living room interior with large windows, comfortable sofa and coffee table"
+    style="object-position: center;"
+  >
+  <div class="carousel-caption d-none d-md-block">
+    <h5>First slide label</h5>
+    <p>Some representative placeholder content for the first slide.</p>
+  </div>
+</div>
+
+    <div class="carousel-item " style="height: 350px; overflow: hidden;">
+      <img src="images/office.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" style="height:300px;">
+      <img src="images/office.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+</div>
+
+
+<div class="container-fluid">
+  <div class="container mt-2 mb-2 con2">
+  <div class="row">
+    <p class="fw-semibold mt-2 ms-4"><h2>Modshift : "Your fit for every shift - from desk to lecture to weekend chill.”</h2>
+    </p>
+    <div class="col mt-2 ms-4">
+      <div class="card" style="width: 300px; border-radius:20%;">
+      <img src="images/office.jpg" class="card-img-top" alt="office wear" style="border-radius:20%;">
+      <div class="card-body text-center">
+      <h3 class="card-title">Office wear</h3>
+      <p class="card-text"><h6>Power dressing, re-imagined.</h6>
+       Step into your workday with confidence.From crisp shirts to minimalistic co-ords.
+      </p>
+      <a href="#" class="btn btn-primary mx-5">
+      <i class="fa-solid fa-bag-shopping fa-flip"></i>
+      Shop now
+      </a>
+  </div>
+</div>
+</div>
+
+    <div class="col mt-2 ms-4">
+      <div class="card" style="width: 300px; border-radius:20%;">
+      <img src="images/college.jpg" class="card-img-top" alt="college wear" style="border-radius:20%;">
+      <div class="card-body text-center">
+      <h3 class="card-title">College wear</h3>
+      <p class="card-text"><h6>Style that speaks your vibe.</h6>
+      Fresh,functional and a little fun—this collection balances chill fits to keep you campus-ready every day.
+      </p>
+      <a href="#" class="btn btn-primary mx-5">
+      <i class="fa-solid fa-bag-shopping fa-flip"></i>
+      Shop now
+      </a>
+    
+      </div>
+</div>
+</div>
+
+  <div class="col mt-2 ms-4 pb-3">
+      <div class="card" style="width: 300px; border-radius:20%;">
+      <img src="images/casual2.jpg" class="card-img-top" alt="casuals wear" style="border-radius:20%;">
+      <div class="card-body text-center">
+      <h3 class="card-title">Casual's</h3>
+      <p class="card-text"><h6>Relax, but make it chic.</h6>
+    Think breezy tops,denim love, and laid-back looks that never try too hard.
+      </p>
+      <a href="#" class="btn btn-primary mx-5">
+      <i class="fa-solid fa-bag-shopping fa-flip"></i>
+      Shop now
+      </a>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="container mb-2 con1">
+<div class="row">
+  <p class="fw-semibold mt-3"><h2 style=" color: white;">Noor : "Evoking glam + shimmer, perfect for festive or spotlight moments”</h2>
+   </p>
+
+  
+  <div class="col ms-4 p-4 d-flex justify-content-evenly ">
+
+      <div class="card " style="width:300px; border-radius:35%;">
+      <img src="images/ethnic.jpg" class="card-img-top" alt="ethnic wear" style="border-radius:35%;">
+      <div class="card-body text-center">
+      <h3 class="card-title">Ethnic wear</h3>
+      <!-- <p class="card-text"><h6>Tradition meets trend.</h6>
+       Celebrate culture-with vibrant weaves.From kurta sets to fusion drapes.
+      </p> -->
+      <a href="#" class="btn btn-primary mx-5">
+      <i class="fa-solid fa-bag-shopping fa-flip"></i>
+      Shop now
+      </a>
+     </div>
+     </div>
+</div>
+<div class="col mt-5 ms-4 p-3 d-flex justify-content-evenly">
+   <div class="fst-italic discript p-2 mt-3" style="height: 350px;">
+     <h4>
+     Celebrate heritage with a modern twist. Whether it’s a festive gathering or a quiet cultural nod, each look speaks of elegance, authenticity, and timeless charm.Bold and statement finishes this is where fashion meets fantasy,for every celebration</h4>
+    <!-- <img src="C:\Users\Admin\Downloads\banner.png"> -->
+   </div>
+</div> 
+<div class="col p-3 ms-4  d-flex justify-content-evenly">
+      <div class="card" style="width: 300px; border-radius:35%;">
+      <img src="images/party2.jpg" class="card-img-top" alt="party wear" style="border-radius:35%;">
+      <div class="card-body text-center">
+      <h3 class="card-title">Party wear</h3>
+     
+      <a href="#" class="btn btn-primary mx-5">
+      <i class="fa-solid fa-bag-shopping fa-flip"></i>
+      Shop now
+      </a>
+  </div>
+</div>
+</div> 
+
+</div>
+</div>
+
+</div>
+
+
+<div class="container-fluid">
+  <div class="container d-flex justify-content-center ">
+  
+  <div class="featured text-center">
+  <div class="header"style="background-color:#d3d3d3;">
+    Featured
+  </div>
+  <div class="body p-2">
+    <h5 class="title p-1" style="background-color: yellow;">Festive Season DHAMAKA SALE !!!</h5>
+    <p class="text">Flat 50% off on Kurta's, Saree's, & Dresse's</p>
+    <a href="#" class="btn btn-primary">Remind Me</a>
+  </div>
+  <div class="footer text-muted m-1" style="background-color:#d3d3d3;">
+    2 Days TO Go.. 
+  </div>
+</div>
+    
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="container d-flex justify-content-center p-3" >
+    <div class="card1">
+        <div class="card1-header">
+            <h3>Modern Office Collection</h3>
+        </div>
+        <div class="card1-body">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x600/dddddd/2c3e50?text=Professional+Office+Attire+for+Women" alt="Professional women in modern office attire with neutral color blazers standing confidently">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x600/dddddd/2c3e50?text=Elegant+Office+Workspace" alt="Stylish modern office workspace with sleek furniture and natural lighting">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x600/dddddd/2c3e50?text=Contemporary+Meeting+Room" alt="Modern meeting room with glass walls, comfortable chairs and large display screen">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://placehold.co/600x600/dddddd/2c3e50?text=Executive+Desk+Setup" alt="Premium executive desk with leather chair, laptop and designer accessories">
+                </div>
+            </div>
+        </div>
+        <div class="card1-footer">
+            <span class="price">$249.99</span>
+            <button class="btn btn-primary">Add to Cart</button>
+        </div>
+    </div>
+</div>
+</div>
+
+<footer class="bg-dark text-light pt-4 pb-2">
+  <div class="container">
+    <div class="row">
+
+      <!-- About Section -->
+      <div class="col-md-3 mb-3">
+        <h5>ThreadMuse</h5>
+        <p>Your fashion story, stitched with elegance and tech.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-light">Home</a></li>
+          <li><a href="#catalogue" class="text-light">Catalogue</a></li>
+          <li><a href="#about" class="text-light">About Us</a></li>
+          <li><a href="#contact" class="text-light">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-3 mb-3">
+        <h5>Follow Us</h5>
+        <a href="https://www.instagram.com" class="text-light me-3"><i class="bi bi-instagram fs-5"></i></a>
+        <a href="https://www.facebook.com" class="text-light me-3"><i class="bi bi-facebook fs-5"></i></a>
+        <a href="https://www.linkedin.com" class="text-light me-3"><i class="bi bi-linkedin fs-5"></i></a>
+        <a href="https://www.twitter.com" class="text-light me-3"><i class="bi bi-twitter fs-5"></i></a>
+      </div>
+    
+    <div class="col mb-3">
+        <h5>Contact</h5>
+        <p><i class="bi bi-envelope"></i> support@threadmuse.com</p>
+        <p><i class="bi bi-telephone"></i> +91 98765 43210</p>
+      </div>
+    </div>
+    <hr class="bg-light">
+
+    <div class="text-center">
+      <small>&copy; 2025 ThreadMuse. All rights reserved.</small>
+    </div>
+  </div>
+  
+</footer>
+
+ 
+
+  <!-- Bootstrap JS Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
