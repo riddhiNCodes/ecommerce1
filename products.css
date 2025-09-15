@@ -1,0 +1,101 @@
+header{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+.navbar{
+      background-color: #2f5c4c;
+      padding: 5px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+.navbar img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* Navbar link styling */
+.navbar-nav .nav-link {
+  color: #ffffff; /* default white */
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+/* Hover & active link effect */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #FFD700; /* golden hover */
+  border-bottom: 2px solid #FFD700; /* subtle underline */
+}
+.btn-signin:hover {
+  background-color: #FFD700; /* golden on hover */
+  color: #1b5e20; /* text turns green */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+ 
+ 
+.dropdown-item {
+      font-family: 'Playfair Display', serif;
+      color: #ffffff !important;
+        font-weight: 500;
+    }
+
+
+.dropdown-menu {
+  background-color: #2f5c4c; 
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  padding: 10px 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #264a3e;
+  
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%);
+
+}
+
+
+.form-control {
+      border-radius: 5px;
+    }
+
+    .btn-outline-success {
+      background-color: #2f5c4c;
+      color: #fff;
+      border: none;
+
+  transform: scale(1.05);
+    }
+
+    .btn-outline-success:hover {
+      background-color: #264a3e;
+      color:#FFD700;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);  
+    }
+
+.btn-signin {
+  background-color: #1e3d34;      
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+
+    }
+

@@ -1,41 +1,56 @@
 body{
- /*font-family:Montserrat;*/
- /* background-color:#fffbe6; */
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.6;
  background: linear-gradient(to right, #e8dfd8, #f6f3ef);
  margin: 0;
  padding: 0;
 }
-
-
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
 .navbar{
       background-color: #2f5c4c;
       padding: 5px 0;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+      z-index: 1000;
     }
+
 .navbar img {
   vertical-align: middle;
   margin-right: 10px;
 }
+/* Navbar link styling */
+.navbar-nav .nav-link {
+  color: #ffffff; /* default white */
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
 
-.navbar .navbar-brand,
-.nav-link,
+/* Hover & active link effect */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #FFD700; /* golden hover */
+  border-bottom: 2px solid #FFD700; /* subtle underline */
+}
+.btn-signin:hover {
+  background-color: #FFD700; /* golden on hover */
+  color: #1b5e20; /* text turns green */
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+ 
+ 
 .dropdown-item {
       font-family: 'Playfair Display', serif;
       color: #ffffff !important;
         font-weight: 500;
     }
 
-.navbar .nav-link:hover {
-  text-decoration: underline;
-}
-.navbar-nav .nav-item {
-  margin-right: 15px;
-
-
-}
 
 .dropdown-menu {
-  background-color: #2f5c4c; /* Same dark green as navbar */
+  background-color: #2f5c4c; 
   border: none;
   border-radius: 8px;
   padding: 10px 0;
@@ -51,10 +66,12 @@ body{
 
 .dropdown-menu .dropdown-item:hover {
   background-color: #264a3e;
+  
 }
 
 .navbar-toggler-icon {
   filter: invert(100%);
+
 }
 
 
@@ -72,7 +89,7 @@ body{
 
     .btn-outline-success:hover {
       background-color: #264a3e;
-      color:goldenrod;
+      color:#FFD700;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);  
     }
 
@@ -88,13 +105,6 @@ body{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 
     }
-
- .btn-signin:hover {
-      background-color: #2f5d4a;
-    }
-
-
-
 
 
 .hero-banner {
