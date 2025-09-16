@@ -8,6 +8,7 @@ header{
 .navbar{
       background-color: #2f5c4c;
       padding: 5px 0;
+      margin-bottom: 30px;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     }
 
