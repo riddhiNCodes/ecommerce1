@@ -6,158 +6,209 @@
   <title>Western Wear for Women</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="products.css">
+  <!-- <link rel="stylesheet" href="nav.html"> -->
+  
   
 </head>
 <body>
 
-<header>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" style="line-height: 1;
-  display: inline-block;vertical-align: middle;margin-left:8px;">
-        <img src="D:\Project\ecommerce\images\newlogo.png" height="90px" class="me-2" />
-        ThreadMuse
-      </a>
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mynav">
-        <form class="d-flex ms-4 me-3 ">
-          <input class="form-control me-2" type="search" placeholder="Search" />
-          <button class="btn btn-outline-success">Search</button>
-        </form>
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Shop Now</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="office_products.html">Office wear</a></li>
-              <li><a class="dropdown-item" href="#">College wear</a></li>
-              <li><a class="dropdown-item" href="#">Casuals</a></li>
-              <li><a class="dropdown-item" href="#">Party Wear</a></li>
-              <li><a class="dropdown-item" href="#">Ethnic Wear</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
-        </ul>
- <div class="d-flex align-items-center ms-3 me-3">
-  <i class="fa-solid fa-cart-shopping p-2" style="color: white; font-size:18px;"></i>
+  <div class="container-fluid mt-5 ">
+    <!-- Breadcrumb -->
+    <div class="row mt-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item"><a href="/clothing">Clothing</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Office Wear</li>
+            </ol>
+        </nav>
+        <h4>Office Wear - 7,832 items</h4>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filter-section mb-3">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-3">
+            	<h5 class="text-warning">Filters</h5>
+                <h6><a href="#" class="text-danger">CLEAR ALL</a></h6>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="mb-3">
+                    <select class="form-select">
+                        <option>Price Range</option>
+                        <option>Under ₹500</option>
+                        <option>Under ₹1,000</option>
+                        <option>Under ₹3,000</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-6 col-md-2">
+                <div class="mb-3">
+                    <select class="form-select">
+                        <option>Gender</option>
+                        <option>Men</option>
+                        <option>Women</option>
+                        <option>Girls</option>
+                        <option>Boys</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-12 col-md-5">
+                <div class="d-flex justify-content-end mb-3">
+                    <select class="form-select w-auto">
+                        <option>Sort by: Recommended</option>
+                        <option>Popularity</option>
+                        <option>What's New?</option>
+                        <option>Trending</option>
+                        <option>Price: High to Low</option>
+                        <option>Price: Low to High</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="row m-2">
+        <!-- Filter Sidebar -->
+        <div class="col-12 col-md-3 category-filter">
+            
+            <h6>Ocassion</h6>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="meet">
+                <label class="form-check-label" for="meet">Meetings</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="ani">
+                <label class="form-check-label" for="ani">Company Anniversaries</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="retire">
+                <label class="form-check-label" for="retire">Retirement Ceremony</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="promo">
+                <label class="form-check-label" for="promo">Promotions and Tenure</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="party">
+                <label class="form-check-label" for="party">Parties</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="socio">
+                <label class="form-check-label" for="socio">Social Gatherings</label>
+            </div>
+            <h6 class="mt-3">Category</h6>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="tshirts">
+                <label class="form-check-label" for="tshirts">T-Shirts (1,630)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="shirts">
+                <label class="form-check-label" for="shirts">Shirts (588)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="topsTunics">
+                <label class="form-check-label" for="topsTunics">Shirts, Tops & Tunics (440)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="kurtas">
+                <label class="form-check-label" for="kurtas">Kurtas & Kurtis (426)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="pajamas">
+                <label class="form-check-label" for="pajamas">Pajamas & Lounge Shorts</label>
+            </div>
+
+            <h6 class="mt-3">Discount Range</h6>
+             <div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    10% and Above 
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+  <label class="form-check-label" for="flexRadioDefault2">
+    20% and Above 
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+  30% and Above 
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+  <label class="form-check-label" for="flexRadioDefault2">
+    40% and Above 
+  </label>
+</div>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="col-12 col-md-9">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3 product-card mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top product-img" alt="YOUSTA Office Shirt">
+                        <div class="card-body">
+                            <h6 class="card-title">YOUSTA</h6>
+                            <p class="card-text">Bestseller</p>
+                            <p class="card-text">₹999</p>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 product-card mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top product-img" alt="YOUSTA Office Shirt">
+                        <div class="card-body">
+                            <h6 class="card-title">YOUSTA</h6>
+                            <p class="card-text">Bestseller</p>
+                            <p class="card-text">₹999</p>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 product-card mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top product-img" alt="YOUSTA Office Shirt">
+                        <div class="card-body">
+                            <h6 class="card-title">YOUSTA</h6>
+                            <p class="card-text">Bestseller</p>
+                            <p class="card-text">₹999</p>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 product-card mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top product-img" alt="YOUSTA Office Shirt">
+                        <div class="card-body">
+                            <h6 class="card-title">YOUSTA</h6>
+                            <p class="card-text">Bestseller</p>
+                            <p class="card-text">₹999</p>
+                            <button class="btn btn-primary btn-sm">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pagination -->
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </div>
 
-<a href="login.html" class="btn-signin">
-  <i class="fas fa-user p-1"></i> SIGN IN
-</a>
-
-      </div>
-    </div>
-  </nav>
-</header> 
-
-  <div class="container-fluid">
-    <div class="container pt-5">
-    <div class="row mt-5 pt-4">
-  
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><a href="#">Clothing</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Office Wear</li>
-      </ol>
-    </nav>
-    <h4>Office Wear - 7832 items</h4>
-      </div>
-        
-      <div class="filter-section mb-4">
-    <div class="row">
-      <div class="col-md-3">
-        <h5>FILTERS <a href="#" class="text-danger">CLEAR ALL</a></h5>
-        </div>
-        <div class="col-md-3">
-        <div class="mb-3">
-          <select class="form-select">
-            <option>Size</option>
-          </select>
-        </div>
-        </div>
-        <div class="col-md-3">
-        <div class="mb-3">
-          <select class="form-select">
-            <option>Size</option>
-          </select>
-        </div>
-        </div>
-        <div class="col-md-3">
-          <div class="d-flex justify-content-end mb-3">
-          <select class="form-select w-auto">
-            <option class="p-3">Sort by: Recommended</option>
-          </select>
-        </div>
-        </div>
-
-     </div>      
-        
-  
-
-        <h6>CATEGORIES</h6>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="jeans"><label class="form-check-label" for="jeans">Jeans (1951)</label></div>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="tops"><label class="form-check-label" for="tops">Tops (1275)</label></div>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="tshirts"><label class="form-check-label" for="tshirts">T-Shirts (1263)</label></div>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="dresses"><label class="form-check-label" for="dresses">Dresses (785)</label></div>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="trousers"><label class="form-check-label" for="trousers">Trousers (660)</label></div>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="shirts"><label class="form-check-label" for="shirts">Shirts (538)</label></div>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="sweatshirts"><label class="form-check-label" for="sweatshirts">Sweatshirts (295)</label></div>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="sweaters"><label class="form-check-label" for="sweaters">Sweaters (283)</label></div>
-        <a href="#" class="text-danger">+14 more</a>
-        <h6 class="mt-3">BRAND</h6>
-        <div class="form-check"><input class="form-check-input" type="checkbox" id="styleCast"><label class="form-check-label" for="styleCast">StyleCast (21436)</label></div>
-     </div>
-     
-      </div>
-  
-     
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card product-card">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 1">
-              <div class="card-body">
-                <p class="card-text">Marks & Spencer</p>
-                <p>4.4 ★ 104</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card product-card">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 2">
-              <div class="card-body">
-                <p class="card-text">Marks & Spencer</p>
-                <p>4.4 ★ 36</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card product-card">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 3">
-              <div class="card-body">
-                <p class="card-text">Marks & Spencer</p>
-                <p>4.7 ★ 24</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card product-card">
-              <img src="https://via.placeholder.com/150" class="card-img-top" alt="Product 4">
-              <div class="card-body">
-                <p class="card-text">Flying Machine</p>
-                <p>3.9 ★ 401</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
     <footer class="text-center mt-5">
         <p>&copy; 2023 Myntra. All rights reserved.</p>
 
